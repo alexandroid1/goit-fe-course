@@ -1,2 +1,2 @@
 # goit-fe-course
-simple html code
+Front End Course by Go IT
