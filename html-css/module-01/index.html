@@ -34,7 +34,7 @@
             <ul class="quote-list">
                 <li class="quote-list__item">
                     <article class="quote">
-                        <img src="./img/img1.jpg" alt="musical festival image">
+                        <img src="./img/img1.jpg" alt="Musical festival image">
                         <p class="quote__type__text">Lifestyle</p>
                         <h2 class="quote__name">More than just a music festival </h2>
                         <p class="quote__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
@@ -55,7 +55,7 @@
                 </li>
                 <li class="quote-list__item">
                     <article class="quote">
-                        <img src="./img/img2.jpg" alt="coffee image">
+                        <img src="./img/img2.jpg" alt="Coffee image">
                         <p class="quote__type__text">Lifestyle</p>
                         <h2 class="quote__name">Life tastes better with coffee</h2>
                         <p class="quote__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
@@ -117,9 +117,19 @@
                         </article>
                     </li>            
             </ul>
-            <form action="#" class="load-more-section__subscribe_form">
-                    <button class="load-more_form__btn_submit">Load more</button>
-            </form>
+
+            <form enctype="multipart/form-data" method="post">
+                <p><input type="file" name="image_file" title="image file" value="image file">
+                <p></p>
+                <p><input type="text" name="article_theme" title="article theme" value="article theme">
+                <p></p>
+                <p><input type="text" name="article_name" title="article name" value="article name">
+                <p></p>
+                <p><input type="text" name="article_text" title="article text" value="article text">
+                <p></p>
+                <input type="submit" value="Load more"></p>
+            </form> 
+
         </main>
 
     </div>
