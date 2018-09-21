@@ -1,0 +1,39 @@
+.our_features__feature_list {
+  width: 950px;
+  margin: 0 auto;
+}
+
+.feature_list__item {
+  list-style: none;
+  margin-right: 50px;
+  display: inline-block;
+}
+
+.article {
+  width: 420px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.article__type {
+  color: #b4ad9e;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.article__name {
+  color: #626262;
+  font-family: "Playfair Display";
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.article__text {
+  color: #626262;
+  font-family: "Playfair Display";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}

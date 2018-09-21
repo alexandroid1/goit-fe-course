@@ -1,0 +1,42 @@
+li {
+  list-style-type: none; 
+}
+
+.new_design__wrapper {
+  display: inline-block;
+  white-space: normal;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.our_features__feature_list {
+  position: absolute;
+  left: 30%;
+}
+
+.feature_list__item {
+  position: absolute;
+}
+
+.article__type {
+  color: #b4ad9e;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.article__name {
+  color: #626262;
+  font-family: "Playfair Display";
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.article__text {
+  color: #626262;
+  font-family: "Playfair Display";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}

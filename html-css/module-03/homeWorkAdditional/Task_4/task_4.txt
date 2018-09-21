@@ -1,0 +1,20 @@
+#myid:focus
+
+IDs 1
+Classes, attributes and pseudo-classes 1
+Elements and pseudo-elements 0
+
+---------------------------------------
+
+.menu > li > a:hover
+
+IDs 0
+Classes, attributes and pseudo-classes 2
+Elements and pseudo-elements 2
+---------------------------------------
+
+#myid > ul > li a:hover
+
+IDs 1
+Classes, attributes and pseudo-classes 1
+Elements and pseudo-elements 3
