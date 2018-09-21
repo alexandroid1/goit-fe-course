@@ -1,0 +1,131 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Roboto", sans-serif, serif;
+  color: #5a5a56;
+  font-size: 16px;
+}
+
+/*-------------menu section------------------*/
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.mastheader_section__wrapper {
+  background-color: #ffffff;
+  background-size: cover;
+}
+
+.mastheader_section {
+  padding-top: 50px;
+}
+
+.mastheader {
+  margin-bottom: 100px;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.masthead-nav {
+  text-align: center;
+}
+
+.nav-list {
+  display: inline-block;
+}
+
+.nav-list__item {
+  list-style: none;
+  display: inline-block;
+  margin-right: 120px;
+}
+
+.item_link {
+  color: #626262;
+  font-family: "Playfair Display";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  transition: 0.6s ease;
+  text-decoration: none;
+}
+
+.item_link:hover {
+  border-top: 6px solid #626262;
+  border-bottom: 6px solid #626262;
+  padding: 6px 0;
+}
+
+/*-------------main section------------------*/
+
+.our_features__feature_list {
+  width: 950px;
+  margin: 0 auto;
+}
+
+.feature_list__item {
+  list-style: none;
+  margin-right: 50px;
+  display: inline-block;
+  margin-bottom: 130px;
+}
+
+.article {
+  width: 420px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.article__type {
+  color: #b4ad9e;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.article__name {
+  color: #626262;
+  font-family: "Playfair Display";
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.article__text {
+  color: #626262;
+  font-family: "Playfair Display";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/*------------button------------*/
+
+.button__wrapper {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.load-more__button {
+  width: 164px;
+  height: 60px;
+  border: 1px solid #626262;
+  font-family: "Playfair Display";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  background: #ffffff;
+}
