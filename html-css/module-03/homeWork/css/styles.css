@@ -23,9 +23,6 @@ ul {
 .mastheader_section__wrapper {
   background-color: #ffffff;
   background-size: cover;
-}
-
-.mastheader_section {
   padding-top: 50px;
 }
 
@@ -44,6 +41,10 @@ ul {
 
 .nav-list {
   display: inline-block;
+}
+
+.nav-list li:last-child{
+  margin-right: 0px;
 }
 
 .nav-list__item {
@@ -71,16 +72,23 @@ ul {
 
 /*-------------main section------------------*/
 
-.our_features__feature_list {
-  width: 950px;
+.list {
+  width: 894px;
   margin: 0 auto;
 }
 
-.feature_list__item {
+.list__item {
   list-style: none;
-  margin-right: 50px;
   display: inline-block;
   margin-bottom: 130px;
+}
+
+.odd{
+  margin-right: 50px;
+}
+
+.even{
+  margin-right: 0px;
 }
 
 .article {
@@ -115,7 +123,7 @@ ul {
 /*------------button------------*/
 
 .button__wrapper {
-  width: 250px;
+  width: 163px;
   margin: 0 auto;
 }
 
