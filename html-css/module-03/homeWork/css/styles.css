@@ -72,6 +72,10 @@ ul {
   color: #03a9f4;
 }
 
+img{
+  width: 100%;
+}
+
 /*-------------main section------------------*/
 
 .content__wrapper {
