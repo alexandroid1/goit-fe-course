@@ -43,7 +43,7 @@ ul {
   display: inline-block;
 }
 
-.nav-list li:last-child{
+.nav-list li:last-child {
   margin-right: 0px;
 }
 
@@ -64,13 +64,17 @@ ul {
 }
 
 .item_link:hover {
-  border-bottom: 1px solid #626262;
-  padding: 1px 0;
+  font-family: "Playfair Display";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #03a9f4;
 }
 
 /*-------------main section------------------*/
 
-.content__wrapper{
+.content__wrapper {
   background-color: #ffffff;
   background-size: cover;
 }
@@ -87,7 +91,7 @@ ul {
 }
 
 .list__item:nth-child(odd) {
-  margin-right: 50px;  
+  margin-right: 50px;
 }
 
 .article {
