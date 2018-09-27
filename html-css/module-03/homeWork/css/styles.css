@@ -18,6 +18,19 @@ body {
 ul {
   margin: 0;
   padding: 0;
+
+  font-size:0; /* убираем горизонтальные отступы */
+	line-height:0; /* ...и вертикальные в некоторых браузерах */
+	letter-spacing:-1px; /* переубеждаем webkit'ы */
+}
+
+li{
+	font-size:14px; /* Не забываем восстановить нормальные значения */
+	line-height:normal;
+	letter-spacing:normal;
+	display: -moz-inline-stack!important;
+	display:inline-block;
+	zoom:1;
 }
 
 .mastheader_section__wrapper {
@@ -31,7 +44,7 @@ ul {
 }
 
 .container {
-  width: 900px;
+  width: 895px;
   margin: 0 auto;
 }
 
