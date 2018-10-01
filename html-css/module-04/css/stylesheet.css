@@ -98,6 +98,12 @@ ul {
   text-transform: uppercase;
 }
 
+/*-----------header-link------------*/
+.header__link{
+  text-decoration: none;
+}
+
+
 /*--------------banner---------------*/
 .masthead__banner {
   width: 770px;
