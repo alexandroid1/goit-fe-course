@@ -104,14 +104,14 @@ ul {
 }
 
 
-/*--------------banner---------------*/
-.masthead__banner {
+/*--------------title---------------*/
+.masthead__title {
   width: 770px;
   margin: 0 auto;
   text-align: center;
 }
 
-.banner__title {
+.title {
   color: #515151;
   font-family: "Roboto";
   font-size: 48px;
@@ -122,7 +122,7 @@ ul {
   margin: 0 0 25px 0;
 }
 
-.banner__title::after {
+.title::after {
   content: "";
   display: block;
   margin: 0 auto;
@@ -226,14 +226,14 @@ ul {
 
 /*-----------articles-banner--------------*/
 
-.articles__banner {
+.articles__header {
   width: 770px;
   margin: 0 auto;
   text-align: center;
   padding-top: 34px;
 }
 
-.articles__banner__title {
+.articles__header__title {
   color: #515151;
   font-family: "Roboto";
   font-size: 48px;
@@ -244,7 +244,7 @@ ul {
   margin: 0 0 65px 0;
 }
 
-.articles__banner__title::after {
+.articles__header__title::after {
   content: "";
   display: block;
   margin: 0 auto;
