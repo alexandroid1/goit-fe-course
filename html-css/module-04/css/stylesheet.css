@@ -83,6 +83,7 @@ ul {
   font-size: 14px;
   font-weight: 700;
   line-height: 11px;
+  letter-spacing: -0.28px;
   text-transform: uppercase;
 }
 
@@ -92,6 +93,8 @@ ul {
   font-family: "Open Sans";
   font-weight: 700;
   letter-spacing: -0.28px;
+  line-height: 11px;
+  text-transform: uppercase;
 }
 
 /*--------------banner---------------*/
