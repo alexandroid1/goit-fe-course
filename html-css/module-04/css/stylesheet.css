@@ -56,7 +56,7 @@ ul {
 }
 
 .masthead__header {
-  margin-bottom: 79px;
+  margin-bottom: 77px;
 }
 
 /*---------menu-----------*/
@@ -98,7 +98,7 @@ ul {
   text-transform: uppercase;
 }
 
-/*-----------header-link------------*/
+/*-----------title-link------------*/
 .title__link{
   text-decoration: none;
 }
@@ -119,7 +119,7 @@ ul {
   line-height: 32px;
   text-transform: uppercase;
   letter-spacing: -0.96px;
-  margin: 0 0 25px 0;
+  margin: 0 0 77px 0;
 }
 
 .title::after {
@@ -127,7 +127,7 @@ ul {
   display: block;
   margin: 0 auto;
   border-bottom: 8px solid #00e0d0;
-  margin-top: 30px;
+  margin-top: 33px;
   width: 164px;
   background-color: #1abc9c;
 }
