@@ -40,10 +40,6 @@ ul {
   background: white;
 }
 
-.masthead {
-  padding-top: 15px;
-}
-
 .section {
   width: 1110px;
   margin: 0 auto;
@@ -56,7 +52,7 @@ ul {
 }
 
 .masthead__header {
-  margin-bottom: 77px;
+  padding-top: 15px;
 }
 
 /*---------menu-----------*/
@@ -99,14 +95,12 @@ ul {
 }
 
 /*-----------title-link------------*/
-.title__link{
+.title__link {
   text-decoration: none;
 }
 
-
 /*--------------title---------------*/
 .masthead__title {
-  width: 770px;
   margin: 0 auto;
   text-align: center;
 }
@@ -119,7 +113,7 @@ ul {
   line-height: 32px;
   text-transform: uppercase;
   letter-spacing: -0.96px;
-  margin: 0 0 77px 0;
+  margin: 0 0 92px 0;
 }
 
 .title::after {
@@ -134,28 +128,12 @@ ul {
 
 /*--------------shop-------------*/
 
-.product-inner {
-  width: 255px;
-  background-color: #e9f0fd;
-  text-align: center;
-}
-
-.product-inner:hover .product-name {
-  background-color: #1abc9c;
-}
-
-.product-inner:hover .product-price {
-  background-color: #7fd9c8;
-}
-
 .image-box {
   height: 280px;
   position: relative;
 }
 
 .product-image {
-  max-width: 250px;
-  max-height: 280px;
   position: absolute;
   margin: auto;
   left: 0;
@@ -166,7 +144,7 @@ ul {
 
 /*------------name---------------*/
 .product-name {
-  height: 40px;
+  height: 42px;
   background-color: #323232;
   width: 100%;
 }
@@ -186,51 +164,58 @@ ul {
 
 /*------------price---------------*/
 
-.product-price {
-  height: 40px;
+.price_info {
+  height: 100%;
   background-color: #8c8c8c;
   width: 20%;
   float: right;
-}
-
-.price_info {
-  float: left;
   color: white;
-  opacity: 0.99;
   font-family: "Roboto";
   font-size: 18px;
   font-weight: 600;
-  line-height: 32px;
+  line-height: 40px;
   text-transform: uppercase;
   letter-spacing: -0.36px;
-  margin: 5px 5px 5px 10px;
-  padding: 0;
+  margin: 0px 0px 0px 0px;
 }
 
 /* -----------services------------ */
 
 .services-section {
-  padding: 25px 0;
+  padding: 102px 0 106px 0;
 }
 
 .services-list__services-item {
   margin-right: 30px;
   float: left;
   list-style: none;
-  padding: 15px 0px;
+  width: 255px;
+  background-color: #e9f0fd;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.services-list__services-item:hover .product-name {
+  background-color: #1abc9c;
+}
+
+.services-list__services-item:hover .price_info {
+  background-color: #7fd9c8;
 }
 
 .services-list__services-item:nth-child(4n) {
   margin-right: 0px;
 }
 
+.services-list__services-item:nth-child(n + 5) {
+  margin-bottom: 0px;
+}
+
 /*-----------articles-banner--------------*/
 
 .articles__header {
-  width: 770px;
   margin: 0 auto;
   text-align: center;
-  padding-top: 34px;
 }
 
 .articles__header__title {
@@ -249,16 +234,12 @@ ul {
   display: block;
   margin: 0 auto;
   border-bottom: 8px solid #00e0d0;
-  margin-top: 30px;
+  margin-top: 33px;
   width: 164px;
   background-color: #1abc9c;
 }
 
 /*-----------articles--------------*/
-
-.articles-section {
-  padding: 29px 0;
-}
 
 .articles-list__articles-item {
   margin-right: 30px;
@@ -306,23 +287,14 @@ ul {
 /*------------button----------*/
 
 .banner__btn {
-
-  border: 1px solid #00e0d0;
-  border-radius: 2px;
-  padding: 13px 15px;
-  cursor: pointer;
-  outline: none;
-
-  color: #ffffff;
   font-family: "Open Sans";
-  font-size: 16px;
   font-weight: 300;
-  line-height: 26px;
-  letter-spacing: -0.32px;
-
-  width: 159px;
-  height: 51px;
-  background-color: #4ec6ab;
-
   margin-top: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-block;
+  background-color: #4ec6ab;
+  padding: 17px 40px;
+  border-radius: 2px;
 }
