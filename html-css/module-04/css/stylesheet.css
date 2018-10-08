@@ -166,10 +166,10 @@ ul {
 
 .price_info {
   height: 100%;
-  background-color: #8c8c8c;
+  background-color:rgba(255,255,255,0.44);
   width: 20%;
   float: right;
-  color: white;
+  color: #ffffff;
   font-family: "Roboto";
   font-size: 18px;
   font-weight: 600;
@@ -200,7 +200,7 @@ ul {
 }
 
 .services-list__services-item:hover .price_info {
-  background-color: #7fd9c8;
+  background-color: rgba(255,255,255,0.44);
 }
 
 .services-list__services-item:nth-child(4n) {
