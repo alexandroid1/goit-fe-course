@@ -11,3 +11,6 @@ https://alexandroid1.github.io/goit-fe-course/html-css/module-03/homeWork/
 
 3 Simple landing page (floats)
 https://alexandroid1.github.io/goit-fe-course/html-css/module-04/index.html
+
+4 Page using asolute and relative psitioning
+https://alexandroid1.github.io/goit-fe-course/html-css/module-05/index.html
