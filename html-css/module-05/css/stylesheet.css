@@ -107,6 +107,11 @@ ul {
 }
 
 /*--------------Slider---------------*/
+
+.slider-wrapper{
+  position: relative;
+}
+
 .slider {
   min-height: 600px;
   position: relative;
@@ -117,7 +122,6 @@ ul {
   transform: translateY(-50%);
   position: absolute;
   width: 104px;
-  height: 104px;
   background-color: #4ec6ab;
   opacity: 0.65;
   border: none;
@@ -147,9 +151,9 @@ ul {
 /*--------paris_tours----------*/
 .paris_tours {
   position: absolute;
-  top: 310px;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
 }
 
 .affordable_tours {
@@ -175,10 +179,6 @@ ul {
 }
 
 /*--------------title---------------*/
-.masthead__title {
-  margin: 0 auto;
-  text-align: center;
-}
 
 .title {
   color: #515151;
@@ -189,6 +189,7 @@ ul {
   text-transform: uppercase;
   letter-spacing: -0.96px;
   margin: 0 0 81px 0;
+  text-align: center;
 }
 
 .title::after {
@@ -221,18 +222,18 @@ ul {
 
 /*--------card_menu-----------*/
 .card_menu {
-  position: relative;
-  width: 90%;
-  height: 91%;
+  position: absolute;
   background: rgba(0, 0, 0, 0.65);
   z-index: 3;
-  margin: 13px;
+  top: 13px;
+  bottom: 13px;
+  right: 13px;
+  left: 13px;
   display: none;
 }
 
 .buttons_box {
   width: 178px;
-  height: 120px;
   position: relative;
   top: 50%;
   left: 50%;
@@ -347,8 +348,6 @@ ul {
 }
 
 .span_add_to_cart {
-  width: 87px;
-  height: 10px;
   color: #ffffff;
   font-family: "Open Sans";
   font-size: 14px;
