@@ -209,12 +209,6 @@ ul {
 }
 
 .product-image {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  margin: auto;
-  left: 0;
-  top: 0;
   max-width: 255px;
   max-height: 280px;
   z-index: 1;
