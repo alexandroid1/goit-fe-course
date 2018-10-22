@@ -1,0 +1,455 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #515151;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/*---------------logo--------------*/
+.logo {
+  margin: 0;
+  display: inline-block;
+
+  color: #555252;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 32px;
+  text-transform: uppercase;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.6px;
+}
+
+.logo::first-letter {
+  color: #1abc9c;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  letter-spacing: -0.6px;
+}
+
+/*---------------head---------------*/
+
+.section {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.masthead__header {
+  padding-top: 31px;
+  padding-bottom: 28px;
+}
+
+/*---------menu-----------*/
+
+.header__header-nav {
+  float: right;
+  padding-top: 8px;
+}
+
+.nav-list__nav-item {
+  list-style: none;
+  float: left;
+  margin-right: 20px;
+}
+
+.nav-list__nav-item:last-child {
+  margin-right: 0;
+}
+
+.nav-item__link {
+  text-decoration: none;
+  color: #0f0101;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 11px;
+  letter-spacing: -0.28px;
+  text-transform: uppercase;
+}
+
+.nav-item__link:hover {
+  text-decoration: none;
+  color: #1abc9c;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: -0.28px;
+  line-height: 11px;
+  text-transform: uppercase;
+}
+
+/*------------Banner---------------*/
+.banner {
+  min-height: 600px;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 2, 0.52),
+      rgba(0, 0, 2, 0.52)
+    ),
+    url("../img/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/*--------------Slider---------------*/
+
+.slider-wrapper{
+  position: relative;
+}
+
+.slider {
+  min-height: 600px;
+  position: relative;
+}
+
+.slider-ctrl {
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  width: 104px;
+  background-color: #4ec6ab;
+  opacity: 0.65;
+  border: none;
+  color: #ffffff;
+  font-family: "Pe -icon -7-stroke";
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 11px;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+}
+
+.slider-ctrl-next {
+  left: 0;
+}
+
+.slider-ctrl-prev {
+  right: 0;
+}
+
+.slider-ctrl:hover {
+  background-color: #1abc9c;
+  cursor: pointer;
+  opacity: 1;
+}
+
+/*--------paris_tours----------*/
+.paris_tours {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.affordable_tours {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-size: 60px;
+  font-weight: 600;
+  letter-spacing: -1.2px;
+  line-height: 82px;
+  margin: 0;
+}
+
+.city_tours {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: "Roboto";
+  font-weight: 300;
+  letter-spacing: -0.48px;
+  line-height: 54px;
+  margin: 0;
+}
+
+/*--------------title---------------*/
+
+.title {
+  color: #515151;
+  font-family: "Roboto";
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 32px;
+  text-transform: uppercase;
+  letter-spacing: -0.96px;
+  margin: 0 0 81px 0;
+  text-align: center;
+}
+
+.title::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  border-bottom: 8px solid #00e0d0;
+  margin-top: 33px;
+  width: 164px;
+  background-color: #1abc9c;
+}
+
+/*--------------shop-------------*/
+.image-box {
+  height: 280px;
+  position: relative;
+}
+
+.product-image {
+  max-width: 255px;
+  max-height: 280px;
+  z-index: 1;
+}
+
+/*--------card_menu-----------*/
+.card_menu {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.65);
+  z-index: 3;
+  top: 13px;
+  bottom: 13px;
+  right: 13px;
+  left: 13px;
+  display: none;
+}
+
+.buttons_box {
+  width: 178px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.under_menu {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.45);
+  z-index: 2;
+  text-align: center;
+}
+
+.services-list__services-item:hover .card_menu {
+  display: block;
+}
+
+.services-list__services-item:hover .under_menu {
+  display: block;
+}
+
+/*---------card_buttons-----------*/
+.button_heart {
+  margin-top: 5px;
+  margin-left: 5px;
+  background: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-family: "Pe -icon -7-stroke";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 5px;
+  text-transform: uppercase;
+  letter-spacing: -0.6px;
+  z-index: 4;
+  padding: 10px;
+}
+
+.button_heart:hover {
+  background-color: #1abc9c;
+  cursor: pointer;
+}
+
+.button_rows {
+  margin-top: 5px;
+  margin-left: 5px;
+  background: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-family: "Pe -icon -7-stroke";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 5px;
+  text-transform: uppercase;
+  letter-spacing: -0.6px;
+  z-index: 4;
+  padding: 10px;
+}
+
+.button_rows:hover {
+  background-color: #1abc9c;
+  cursor: pointer;
+}
+
+.button_clock {
+  margin-top: 5px;
+  margin-left: 5px;
+  background: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-family: "Pe -icon -7-stroke";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 5px;
+  text-transform: uppercase;
+  letter-spacing: -0.6px;
+  z-index: 4;
+  padding: 10px;
+}
+
+.button_clock:hover {
+  background-color: #1abc9c;
+  cursor: pointer;
+}
+
+.button_add_to_cart {
+  margin-top: 9px;
+  margin-left: 5px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-family: "Pe -icon -7-stroke";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 5px;
+  text-transform: uppercase;
+  letter-spacing: -0.6px;
+  z-index: 4;
+  padding: 10px;
+  width: 171px;
+  height: 50px;
+  background-color: #323232;
+}
+
+.button_add_to_cart:hover {
+  background-color: #1abc9c;
+  cursor: pointer;
+}
+
+.span_add_to_cart {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 32px;
+  text-transform: uppercase;
+  letter-spacing: -0.28px;
+  position: relative;
+  z-index: 5;
+  top: -8px;
+}
+
+/*------------name---------------*/
+.product-name {
+  height: 42px;
+  background-color: #323232;
+  width: 100%;
+}
+
+.name_info {
+  float: left;
+  color: white;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  text-transform: uppercase;
+  letter-spacing: -0.36px;
+  margin: 5px 5px 5px 10px;
+  padding: 0;
+}
+
+/*------------price---------------*/
+.price_info {
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.44);
+  width: 20%;
+  float: right;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 40px;
+  text-transform: uppercase;
+  letter-spacing: -0.36px;
+  margin: 0px 0px 0px 0px;
+}
+
+/* -----------services------------ */
+.services-wrapper {
+  background-color: #e9f0fd;
+}
+
+.services-section {
+  padding: 102px 0 68px 0;
+}
+
+.services-list__services-item {
+  margin-right: 30px;
+  float: left;
+  list-style: none;
+  width: 255px;
+  background-color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.services-list__services-item:hover .product-name {
+  background-color: #1abc9c;
+}
+
+.services-list__services-item:hover .price_info {
+  background-color: rgba(255, 255, 255, 0.44);
+}
+
+.services-list__services-item:nth-child(4n) {
+  margin-right: 0px;
+}
+
+.services-list__services-item:nth-child(n + 5) {
+  margin-bottom: 0px;
+}
+
+/*-----------footer------------*/
+.footer_section {
+  background-color: #323232;
+  padding-top: 31px;
+  padding-bottom: 33px;
+  text-align: center;
+}
+
+.footer_text {
+  color: #fefefe;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.32px;
+  display: inline-block;
+}
+
+.footer_text_link {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.32px;
+  color: #46bfa9;
+  letter-spacing: -0.32px;
+  text-decoration: none;
+}
