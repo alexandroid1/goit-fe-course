@@ -94,7 +94,12 @@ ul {
 
 /*------------Banner---------------*/
 .banner {
-  min-height: 600px;
+  position: relative;
+}
+
+/*--------------Slider---------------*/
+
+.slider-wrapper{
   background-image: linear-gradient(
       to right,
       rgba(0, 0, 2, 0.52),
@@ -104,11 +109,6 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-
-/*--------------Slider---------------*/
-
-.slider-wrapper{
   position: relative;
 }
 
@@ -246,11 +246,11 @@ ul {
   text-align: center;
 }
 
-.services-list__services-item:hover .card_menu {
+.cards-list__cards-item:hover .card_menu {
   display: block;
 }
 
-.services-list__services-item:hover .under_menu {
+.cards-list__cards-item:hover .under_menu {
   display: block;
 }
 
@@ -390,16 +390,13 @@ ul {
   margin: 0px 0px 0px 0px;
 }
 
-/* -----------services------------ */
-.services-wrapper {
+/* -----------cards------------ */
+.cards-wrapper {
   background-color: #e9f0fd;
-}
-
-.services-section {
   padding: 102px 0 68px 0;
 }
 
-.services-list__services-item {
+.cards-list__cards-item {
   margin-right: 30px;
   float: left;
   list-style: none;
@@ -409,19 +406,19 @@ ul {
   margin-bottom: 30px;
 }
 
-.services-list__services-item:hover .product-name {
+.cards-list__cards-item:hover .product-name {
   background-color: #1abc9c;
 }
 
-.services-list__services-item:hover .price_info {
+.cards-list__cards-item:hover .price_info {
   background-color: rgba(255, 255, 255, 0.44);
 }
 
-.services-list__services-item:nth-child(4n) {
+.cards-list__cards-item:nth-child(4n) {
   margin-right: 0px;
 }
 
-.services-list__services-item:nth-child(n + 5) {
+.cards-list__cards-item:nth-child(n + 5) {
   margin-bottom: 0px;
 }
 
