@@ -95,6 +95,7 @@ ul {
 /*------------Banner---------------*/
 .banner {
   position: relative;
+  height: 600px;
 }
 
 /*--------------Slider---------------*/
@@ -110,11 +111,12 @@ ul {
   background-size: cover;
   background-position: center;
   position: relative;
+  height: 100%;
 }
 
 .slider {
-  min-height: 600px;
   position: relative;
+  height: 100%;
 }
 
 .slider-ctrl {
