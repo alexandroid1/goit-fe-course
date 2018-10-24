@@ -96,11 +96,7 @@ ul {
 .banner {
   position: relative;
   height: 600px;
-}
 
-/*--------------Slider---------------*/
-
-.slider-wrapper{
   background-image: linear-gradient(
       to right,
       rgba(0, 0, 2, 0.52),
@@ -110,6 +106,11 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+/*--------------Slider---------------*/
+
+.slider-wrapper {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
