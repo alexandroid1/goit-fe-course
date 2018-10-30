@@ -1,0 +1,361 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*---------------header---------------*/
+
+.page_wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.masthead__header {
+  padding-top: 31px;
+  padding-bottom: 28px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*---------------logo--------------*/
+.logo {
+  margin: 0;
+  display: inline-block;
+
+  color: #95e1d3;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+/*---------menu-----------*/
+.header__header-nav {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 8px;
+}
+
+.header-nav__nav-list {
+  display: flex;
+  width: 490px;
+  justify-content: space-between;
+}
+
+.nav-item__link {
+  text-decoration: none;
+  color: #95e1d3;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  transition: border 200ms linear, color 200ms linear;
+}
+
+.nav-item__link:hover {
+  color: #f38181;
+  border-bottom: 1px solid #f38181;
+}
+
+/*---------services title------------*/
+.subtitle {
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 0;
+  text-transform: none;
+  line-height: 5;
+}
+
+.services-section {
+   margin-bottom: 86px;
+}
+
+.section_header {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.section_header::after {
+   display: block;
+   content: '';
+   width: 60px;
+   height: 4px;
+   background-color: #f38181;
+   margin: 40px auto 60px auto;
+
+}
+
+.services_names {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.service_name {
+   font-family: 'Montserrat', sans-serif;
+   color: #333333;
+   font-size: 14;
+   font-weight: 500;
+   text-transform: uppercase;
+   margin-top: 0;
+}
+
+.service_name_item {
+   position: relative;
+   padding-left: 82px;
+   width: 382px;
+   margin-bottom: 100px;
+}
+
+.service_name_item:nth-last-child(-n+3) {
+   margin-bottom: 0;
+}
+
+.service_name_item article::before {
+   display: inline-block;
+   content: '';
+   width: 32px;
+   height: 32px;
+   position: absolute;
+   top: 0;
+   left: 22px;
+   background-repeat: no-repeat;
+}
+
+.service_description {
+  color: #999999;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+/*---icons---*/
+
+.item_photography::before {
+  background: url(../img/icon_1.png);
+}
+
+.item_web_design::before {     
+  background: url(../img/icon_6.png);
+}
+
+.item_creativity::before {
+  background: url(../img/icon_2.png);
+}
+
+.item_seo::before {
+  background: url(../img/icon_3.png);
+}
+
+.item_css_html::before {
+  background: url(../img/icon_4.png);
+}
+
+.item_digital::before {
+  background: url(../img/icon_5.png);
+}
+
+/*-------team--------*/
+.team-section {
+  margin-bottom: 84px;
+}
+.team_description {
+  width: 950px;
+  display: block;
+  margin: 0 auto 96px auto;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #999999;
+  line-height: 1.8;
+}
+
+.team_photos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team_photo_item {
+  width: 380px;
+}
+
+.photo_name {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 40px;
+  color: #333333;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.position {
+  color: #999999;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+}
+
+.img_box {
+  position: relative;
+}
+
+.layer_over {
+  position: absolute;
+  background-image:  linear-gradient( to bottom, rgba(252,227,138, 0) 0%, rgba(243,129,129, 0) 100%);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;      
+  z-index: 3;
+  transition: all 200ms linear;
+}
+
+.layer_under {
+  height: 470px;
+  width: 380px;
+  background-color: #95e1d3;
+  z-index: -100;
+}
+
+.img_box img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 200ms linear;
+}
+
+.team_photo_item:hover .layer_over {
+  display: block;
+  background-image:  linear-gradient( to bottom, rgba(252,227,138, .9) 0%, rgba(243,129,129, .9) 100%);
+  top: -20px;
+  left: -20px;
+}
+
+.team_photo_item:hover .img_box img {
+  top: -20px;
+  left: -20px;
+}
+
+/*-- all the buttons on photos--*/
+
+.links {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+.facebook {
+  background: url(../img/facebook.png) no-repeat center;
+}
+
+.twitter {
+  background: url(../img/twitter.png) no-repeat center;
+}
+
+.pinterest {
+  background: url(../img/pinterest.png) no-repeat center;
+}
+
+.instagram {
+  background: url(../img/instagram.png) no-repeat center;
+}
+
+.network_button {
+  width: 56px;
+  height: 56px;
+  border: none;
+  border-right: 1px solid #f9bd87;
+  background-color: #fce38a;
+  display: none;
+  transition: background-color 200ms linear;
+}
+
+.team_photo_item:hover .network_button {
+  display: block;
+}
+
+.network_button:last-child {
+  border-right: 0;
+}
+
+.network_button:hover {
+  background-color: #95e1d3;
+}
+
+/*---footer---*/
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #e5e5e5;
+  padding: 15px 0;
+  align-items: center;
+}
+
+footer p {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #333333;
+}
+
+footer p a {
+  color: #f38181;
+}
+
+.button-subscribe {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #95e1d3;
+  border: none;
+  padding: 16px 40px;
+  cursor: pointer;
+  outline: none;
+}
+
+::placeholder {
+    color: #e5e5e5;
+    font-style: italic;
+  }
+
+input {
+  border: 1px solid #e5e5e5;
+  border-right: none;
+  outline: none;
+  color: #333333;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  padding: 15px;
+  width: 230px;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: flex-end;
+}
