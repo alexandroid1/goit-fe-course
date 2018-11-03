@@ -227,8 +227,11 @@ a {
   content: '';
   display: block;
   background-color: #95e1d3;
-  width: 380px;
-  height: 470px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .layer_over {
@@ -242,18 +245,14 @@ a {
   transition: all 200ms linear;
 }
 
-/*.layer_under {
-  height: 470px;
-  width: 380px;
-  background-color: #95e1d3;
-  z-index: -100;
-}*/
-
 .img_box img {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   transition: all 200ms linear;
+  z-index: 2;
+  display: block;
+  width: 100%;
 }
 
 .team_photo_item:hover .layer_over {
