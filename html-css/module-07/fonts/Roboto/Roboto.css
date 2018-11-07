@@ -1,0 +1,9 @@
+/* roboto-slab-regular - latin */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'),
+         url('roboto-slab-v7-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('roboto-slab-v7-latin-regular.woff') format('woff'); /* Modern Browsers */
+  }

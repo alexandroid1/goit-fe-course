@@ -1,0 +1,214 @@
+@import "../fonts/Alex_brush/alex_bursh.css";
+@import "../fonts/Montserrat/montserrat.css";
+@import "../fonts/Amiri/amiri.css";
+@import "../fonts/Roboto/Roboto.css";
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+/*----header----*/
+
+.top_header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 36px;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.logo {
+  color: #fed136;
+  font-family: "Alex Brush";
+  font-size: 26px;
+}
+
+.menu_list {
+  display: flex;
+  width: 480px;
+  justify-content: space-between;
+}
+
+.list_item a {
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 14px;
+  color: #222222;
+}
+
+.list_item a:hover,
+.list_item a:focus {
+  color: #fed136;
+}
+
+/*----main----*/
+.section_header {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: "Montserrat";
+  color: rgb(34, 34, 34);
+  font-weight: bold;
+  margin-bottom: 28px;
+}
+
+.subtitle {
+  text-align: center;
+  font-family: "Amiri";
+  font-style: italic;
+  font-size: 16px;
+  color: #777777;
+}
+
+main .subtitle {
+  margin-bottom: 100px;
+}
+
+.main_list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 120px;
+  padding-top: 40px;
+}
+
+.main_list_item {
+  width: 290px;
+  position: relative;
+}
+
+.main_item_title {
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: bold;
+  color: #222222;
+}
+
+.main_item_description {
+  text-align: center;
+  font-family: "Roboto Slab";
+  font-size: 14px;
+  color: #777777;
+}
+
+.img::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 74px;
+  height: 74px;
+  margin: 0 auto 20px auto;
+}
+
+.e-commerce::before {
+  background: url(../img/Icon_e_commerce.png) center no-repeat;
+}
+
+.responsive::before {
+  background: url(../img/Icon-Laptop.png) center no-repeat;
+}
+
+.security::before {
+  background: url(../img/Icon-Locked.png) center no-repeat;
+}
+
+/*----contact us-----*/
+
+.contact_us .section_header,
+.contact_us .subtitle {
+  color: #ffffff;
+}
+
+.contact_us .subtitle {
+  margin-bottom: 76px;
+}
+
+.contact_us {
+  min-height: 676px;
+  background: url(../img/Background.png);
+  background-color: #222222;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-top: 120px;
+}
+
+.text_place {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.input_info {
+  width: 454px;
+  height: 54px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.form_font {
+  font-family: "Montserrat";
+  font-size: 14px;
+  color: #222222;
+  font-weight: bold;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #bbbbbb;
+  text-transform: uppercase;
+}
+
+.send_message {
+  margin-top: 30px;
+  padding: 22px 46px;
+  background-color: #fed136;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  border-radius: 5px;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+}
+
+.input_item {
+  margin-bottom: 24px;
+}
+
+.input_item:last-child {
+  margin-bottom: 0;
+}
+
+textarea {
+  width: 454px;
+  height: 210px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.important:valid {
+  outline-color: rgb(5, 131, 5);
+}
+
+.important:invalid {
+  outline-color: rgb(233, 8, 8);
+}
