@@ -17,3 +17,6 @@ https://alexandroid1.github.io/goit-fe-course/html-css/module-05gh/index.html
 
 5 Page using flexes
 https://alexandroid1.github.io/goit-fe-course/html-css/module-06/index.html
+
+6 Page using forms
+https://alexandroid1.github.io/goit-fe-course/html-css/module-07/index.html
