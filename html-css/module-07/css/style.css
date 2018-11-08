@@ -76,19 +76,19 @@ main .subtitle {
   margin-bottom: 100px;
 }
 
-.main_list {
+.services_list {
   display: flex;
   justify-content: space-between;
   margin-bottom: 120px;
   padding-top: 40px;
 }
 
-.main_list_item {
+.services_list_item {
   width: 290px;
   position: relative;
 }
 
-.main_item_title {
+.services_item_title {
   text-align: center;
   font-family: "Montserrat";
   font-size: 18px;
@@ -96,7 +96,7 @@ main .subtitle {
   color: #222222;
 }
 
-.main_item_description {
+.services_item_description {
   text-align: center;
   font-family: "Roboto Slab";
   font-size: 14px;
