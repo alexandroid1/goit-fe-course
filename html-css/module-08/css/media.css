@@ -1,0 +1,128 @@
+@media (max-width: 599px){
+    .container {
+        width: 320px;
+        padding: 0 20px;
+    }
+
+    /*---header---*/
+
+    .site_header {
+        padding-top: 30px;
+        flex-direction: column;
+        align-items: center;
+        flex-flow: column-reverse;
+    }
+
+    .login-block__button-list {
+        margin-bottom: 116px;
+    }
+
+    .site-title {
+        height: 540px;
+    }
+
+
+    .site-title__subtitle {
+        width: 224px;
+        font-size: 18px;
+    }
+
+    .site-title__headline {
+        width: 280px; 
+        font-size: 28px;
+    }
+
+    /*---partner---*/
+
+    .partner-section__list-item {
+        margin-bottom: 20px;
+    }
+
+    .partner-section__list-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .partpartner-section__list {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 941px) {
+    .container {
+        width: 492px;
+    }
+
+    .site_header {
+        justify-content: space-between;
+        margin-bottom: 160px;
+    }
+
+    .logo {
+        margin-left: 20px;
+    }
+
+    .site-title__headline {
+        font-size: 50px;
+    }
+
+    .site-title__subtitle {
+        font-size: 22px;
+    }
+
+    /*---partner---*/
+
+    .partner-section__list-item {
+        width: 236px;
+        padding: 0 20px;
+    }
+
+    .partner-section__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+
+}
+
+@media (min-width: 942px) {    
+
+    .container {
+        width: 492px;
+    }
+
+    .site_header {
+        justify-content: space-between;
+        
+    }
+
+    .logo {
+        margin-left: 30px;
+    }
+
+    .site-title__headline {
+        font-size: 50px;
+    }
+
+    .site-title__subtitle {
+        font-size: 22px;
+    }
+
+    /*---partner---*/
+
+    .partner-section__list-item {
+        width: 220px;
+        
+    }
+
+    .partner-section__list {
+        display: flex;
+        justify-content: space-between;  
+        margin-bottom: 40px;  
+        min-width: 942px;    
+    }
+
+    .partner-section {
+        width: 942px;
+    }
+}
