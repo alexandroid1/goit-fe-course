@@ -20,3 +20,6 @@ https://alexandroid1.github.io/goit-fe-course/html-css/module-06/index.html
 
 6 Page using forms
 https://alexandroid1.github.io/goit-fe-course/html-css/module-07/index.html
+
+7 Responsive page
+https://alexandroid1.github.io/goit-fe-course/html-css/module-08/index.html
