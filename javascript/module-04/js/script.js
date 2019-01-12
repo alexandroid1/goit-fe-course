@@ -8,7 +8,7 @@ const PRIORITY_TYPES = {
 
 const notebook = {
   notes: [],
-  notes_by_query: [],
+  notesByQuery: [],
 
   /*saveNote */
   saveNote(note) {
@@ -17,16 +17,7 @@ const notebook = {
 
   /*getNotes */
   getNotes() {
-    let str = "";
-    for (const note of this.notes) {
-      const entries = Object.entries(note);
-      for (const entry of entries) {
-        const key = entry[0];
-        const value = entry[1];
-        str = str + "\n" + `${key}: ${value}`;
-      }
-    }
-    return str;
+    return this.notes;
   },
 
   /*findNoteById */
@@ -52,17 +43,17 @@ const notebook = {
 
   /*filterNotes*/
   filterNotes(query) {
-    this.notes_by_query = [];
+    this.notesByQuery = [];
     for (const note of this.notes) {
       if (
         (note["title"].toLowerCase() + note["body"].toLowerCase()).includes(
           query.toLowerCase()
         )
       ) {
-        this.notes_by_query.push(note);
+        this.notesByQuery.push(note);
       }
     }
-    return this.notes_by_query;
+    return this.notesByQuery;
   },
 
   /*deleteNote*/
